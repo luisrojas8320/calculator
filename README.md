@@ -1,2 +1,2 @@
 # calculator
-Javascript Calculatot
+Javascript Calculator
