@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Sencilla</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a tu archivo CSS personalizado (se proporcionará en el siguiente paso) -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div id="calculadora" class="mx-auto">
+        <div id="pantalla" class="mb-3">0</div>
+
+        <!-- Botones del 7 al 9 y división -->
+        <div class="row mb-1">
+            <div class="col"><button class="btn">7</button></div>
+            <div class="col"><button class="btn">8</button></div>
+            <div class="col"><button class="btn">9</button></div>
+            <div class="col"><button class="btn">/</button></div>
+        </div>
+
+        <!-- Botones del 4 al 6 y multiplicación -->
+        <div class="row mb-1">
+            <div class="col"><button class="btn">4</button></div>
+            <div class="col"><button class="btn">5</button></div>
+            <div class="col"><button class="btn">6</button></div>
+            <div class="col"><button class="btn">*</button></div>
+        </div>
+
+        <!-- Botones del 1 al 3 y resta -->
+        <div class="row mb-1">
+            <div class="col"><button class="btn">1</button></div>
+            <div class="col"><button class="btn">2</button></div>
+            <div class="col"><button class="btn">3</button></div>
+            <div class="col"><button class="btn">-</button></div>
+        </div>
+
+        <!-- Botones del 0, igual y suma -->
+        <div class="row">
+            <div class="col-6"><button class="btn">0</button></div>
+            <div class="col"><button class="btn">=</button></div>
+            <div class="col"><button class="btn">+</button></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

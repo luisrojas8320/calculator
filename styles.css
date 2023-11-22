@@ -1,0 +1,44 @@
+/* Estilos generales para la calculadora */
+#calculadora {
+    max-width: 400px; /* Ancho máximo de la calculadora */
+    background-color: #333; /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+    color: white;
+}
+
+/* Estilo para la pantalla de la calculadora */
+#pantalla {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: right;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+.btn {
+    width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+    background-color: #f2f2f2; /* Color de fondo para los botones */
+    color: #333; /* Color del texto */
+    margin: 5px 0; /* Espaciado vertical entre los botones */
+    padding: 15px 0; /* Relleno vertical */
+    border-radius: 5px;
+    font-size: 1.2em; /* Tamaño del texto */
+    border: none;
+}
+
+/* Estilo para el botón cuando está activo/presionado */
+.btn:active {
+    background-color: #ddd;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste para el botón cero ocupando dos columnas */
+.col-6 .btn {
+    width: 100%;
+}
